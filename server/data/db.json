@@ -1,0 +1,423 @@
+{
+  "settings": {
+    "businessName": "VRDroptaxii",
+    "logo": "/logo.png",
+    "phone": "+919843600457",
+    "whatsapp": "919843600457",
+    "adminNotifyEmails": "aramasamy0504@gmail.com",
+    "homeOrigin": "Chennai",
+    "minKm": 130,
+    "requireEmailOtp": true,
+    "emailCustomerOnStatusChange": true,
+    "acceptingBookings": true,
+    "announcement": ""
+  },
+  "vehicles": [
+    {
+      "id": "7f22886f-79cf-4628-ab2a-696ec0133e63",
+      "name": "Sedan AC",
+      "sub": "Swift Dzire / Etios / Amaze or Similar",
+      "img": "/swift.jpg",
+      "oneway": 15,
+      "round": 14,
+      "bata": 400,
+      "pkg": 300,
+      "passengers": 4,
+      "bags": 2,
+      "features": [
+        "Up to 4 Passengers",
+        "Air-Conditioned Vehicle",
+        "Medium Luggage Space",
+        "Comfortable Budget Travel"
+      ],
+      "active": true,
+      "popular": false,
+      "sort": 0,
+      "createdAt": "2026-10-26T09:31:45.817Z",
+      "updatedAt": "2026-10-26T09:31:45.818Z"
+    },
+    {
+      "id": "17e6d7a2-bb88-45cb-b0af-35b024c62e2c",
+      "name": "SUV / Ertiga AC",
+      "sub": "Ertiga / Xylo / Kia Carens or Similar",
+      "img": "/ertica.jpg",
+      "oneway": 20,
+      "round": 19,
+      "bata": 500,
+      "pkg": 400,
+      "passengers": 7,
+      "bags": 4,
+      "features": [
+        "Up to 6 – 7 Passengers",
+        "Spacious Air-Conditioned Cabin",
+        "Large Luggage Space",
+        "Best for Family Travel"
+      ],
+      "active": true,
+      "popular": false,
+      "sort": 1,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "28c5d9b1-d0cd-4982-8d49-d2682214c3ee",
+      "name": "Innova AC",
+      "sub": "Toyota Innova",
+      "img": "/innova.jpg",
+      "oneway": 21,
+      "round": 19,
+      "bata": 500,
+      "pkg": 0,
+      "passengers": 7,
+      "bags": 5,
+      "features": [
+        "Up to 7 Passengers",
+        "Premium Comfortable Ride",
+        "Extra Spacious Cabin",
+        "Ideal for Long-Distance Trips"
+      ],
+      "active": true,
+      "popular": false,
+      "sort": 2,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "882f466d-9655-42c7-be16-39a0ecf275f2",
+      "name": "Tempo Traveller",
+      "sub": "12 to 14 Seater",
+      "img": "/tempo.jpg",
+      "oneway": 26,
+      "round": 26,
+      "bata": 800,
+      "pkg": 0,
+      "passengers": 14,
+      "bags": 8,
+      "features": [
+        "12 to 14 Passengers",
+        "Air-Conditioned Vehicle",
+        "Spacious Luggage Space",
+        "Ideal for Group Travel"
+      ],
+      "active": true,
+      "popular": false,
+      "sort": 3,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    }
+  ],
+  "routes": [
+    {
+      "id": "c044fc31-f2c6-4934-a8d0-8ebabbca2a2a",
+      "from": "Chennai",
+      "to": "Madurai",
+      "hrs": "~8 hrs",
+      "km": 460,
+      "img": "/destinations/madurai.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 0,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "02ac44b0-100d-405d-821e-d21de7e0e507",
+      "from": "Chennai",
+      "to": "Thirunelveli",
+      "hrs": "~10.5 hrs",
+      "km": 625,
+      "img": "/destinations/thirunelveli.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 1,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "4efcdfd2-ae8e-4f74-b4e6-9dba24326b20",
+      "from": "Chennai",
+      "to": "Coimbatore",
+      "hrs": "~9 hrs",
+      "km": 510,
+      "img": "/destinations/coimbatore.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 2,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "bdf20c88-0514-4ced-a149-0821d75d3e60",
+      "from": "Chennai",
+      "to": "Trichy",
+      "hrs": "~6 hrs",
+      "km": 330,
+      "img": "/destinations/trichy.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 3,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "16312b4c-2fa7-4325-a8c8-bf84e21cbfc4",
+      "from": "Chennai",
+      "to": "Salem",
+      "hrs": "~6.5 hrs",
+      "km": 345,
+      "img": "/destinations/salem.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 4,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "ad89fc18-392b-465c-8512-2f32e9794a37",
+      "from": "Chennai",
+      "to": "Bangalore",
+      "hrs": "~6.5 hrs",
+      "km": 350,
+      "img": "/destinations/bangalore.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 5,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "6c8976d8-d2d0-45aa-82c7-f205b1df6a22",
+      "from": "Chennai",
+      "to": "Cochin",
+      "hrs": "~12 hrs",
+      "km": 690,
+      "img": "/destinations/cochin.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 6,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "734d91a4-f845-46c4-b2bd-f05e53af1ccf",
+      "from": "Chennai",
+      "to": "Thiruvananthapuram",
+      "hrs": "~13 hrs",
+      "km": 770,
+      "img": "/destinations/thiruvananthapuram.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 7,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "bb1a8e0e-9d91-4eaa-9497-344248ae6efe",
+      "from": "Chennai",
+      "to": "Tirupathi",
+      "hrs": "~3 hrs",
+      "km": 135,
+      "img": "/destinations/tirupathi.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 8,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "0a1f4116-9a59-45a7-8f25-6b6072348032",
+      "from": "Chennai",
+      "to": "Pondicherry",
+      "hrs": "~3.5 hrs",
+      "km": 165,
+      "img": "/destinations/pondicherry.png",
+      "note": "",
+      "active": true,
+      "featured": true,
+      "sort": 9,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "0ea62c1f-699f-429a-9b55-599e2d31a800",
+      "from": "Chennai",
+      "to": "Vellore",
+      "hrs": "~3 hrs",
+      "km": 140,
+      "img": "/destinations/vellore.png",
+      "note": "",
+      "active": true,
+      "featured": false,
+      "sort": 10,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "e30a5a43-f623-48f4-8233-e40e69a7f515",
+      "from": "Chennai",
+      "to": "Ooty",
+      "hrs": "~10.5 hrs",
+      "km": 550,
+      "img": "/destinations/ooty.png",
+      "note": "",
+      "active": true,
+      "featured": false,
+      "sort": 11,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "5217b757-4ec9-4483-8768-25079f40659b",
+      "from": "Chennai",
+      "to": "Erode",
+      "hrs": "~7.5 hrs",
+      "km": 400,
+      "img": "/destinations/erode.png",
+      "note": "",
+      "active": true,
+      "featured": false,
+      "sort": 12,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    },
+    {
+      "id": "2223e876-c29b-4d88-8425-dfa6f4d86a95",
+      "from": "Chennai",
+      "to": "Kodaikanal",
+      "hrs": "~10 hrs",
+      "km": 530,
+      "img": "https://images.unsplash.com/photo-1594957976865-c335e40e0be2?q=80&w=600&auto=format&fit=crop",
+      "note": "",
+      "active": true,
+      "featured": false,
+      "sort": 13,
+      "createdAt": "2026-10-26T09:31:45.819Z",
+      "updatedAt": "2026-10-26T09:31:45.819Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "7ca29ae5-5707-4dd2-ac85-b9f28ccd7b78",
+      "createdAt": "2026-10-26T11:08:55.736Z",
+      "updatedAt": "2026-10-26T11:50:46.322Z",
+      "name": "rahul",
+      "phone": "9025207959",
+      "email": "rahulgohul391@gmail.com",
+      "from": "Udhagamandalam",
+      "to": "Chennai",
+      "tripType": "one",
+      "date": "2026-10-27",
+      "time": "16:39",
+      "vehicleId": "7f22886f-79cf-4628-ab2a-696ec0133e63",
+      "distanceKm": 557,
+      "notes": "",
+      "vehicleName": "Sedan AC",
+      "estimatedFare": 8755,
+      "ref": "DT1001",
+      "customerId": "0adc73a3-aae3-467d-a06a-04a6bbd1ba80",
+      "status": "completed",
+      "finalFare": null,
+      "driverId": null,
+      "adminNotes": "",
+      "source": "website",
+      "emailVerified": true,
+      "history": [
+        {
+          "at": "2026-10-26T11:08:55.736Z",
+          "status": "pending",
+          "by": "customer",
+          "note": "Booked on website"
+        },
+        {
+          "at": "2026-10-26T11:40:38.745Z",
+          "status": "confirmed",
+          "by": "Owner",
+          "note": ""
+        },
+        {
+          "at": "2026-10-26T11:50:46.322Z",
+          "status": "completed",
+          "by": "Owner",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "0adc73a3-aae3-467d-a06a-04a6bbd1ba80",
+      "createdAt": "2026-10-26T11:08:55.736Z",
+      "updatedAt": "2026-10-26T11:08:55.736Z",
+      "name": "rahul",
+      "phone": "9025207959",
+      "phoneKey": "9025207959",
+      "email": "rahulgohul391@gmail.com",
+      "blocked": false,
+      "notes": "",
+      "lastBookingAt": "2026-10-26T11:08:55.736Z"
+    }
+  ],
+  "drivers": [],
+  "admins": [
+    {
+      "id": "fc2b7214-1233-408d-a47f-52241c6e7692",
+      "createdAt": "2026-10-26T09:31:45.990Z",
+      "updatedAt": "2026-10-26T11:58:13.644Z",
+      "name": "Owner",
+      "email": "admin@droptaxii.com",
+      "passwordHash": "$2b$10$Db9fnKvgGbNDsU.IthEucezBzPdbZvoTZNy2cP2vnzSh2EwEC/iJi",
+      "role": "admin",
+      "active": true,
+      "lastLoginAt": "2026-10-26T11:58:13.644Z"
+    }
+  ],
+  "pushSubscriptions": [
+    {
+      "id": "11f32ffa-73f0-46d4-8b27-96b62fdbe997",
+      "adminId": "fc2b7214-1233-408d-a47f-52241c6e7692",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 OPR/138.0.0.0",
+      "subscription": {
+        "endpoint": "https://fcm.googleapis.com/fcm/send/eVaD4UhLznE:APA91bHDZRE0le_Iq6-9yQ25KBiIfwvAGiN0tcvNmD9fRYxSf7rt7ERfCLNOLAlAto23DPsqfxHZFiFOK3epq7OvEu5sZ0fnGZWtuWaxUsQVolTMgZOw3BigK3swOBwJjTc-pnaqioKL",
+        "expirationTime": null,
+        "keys": {
+          "p256dh": "BCrwSnmR_j1A_qvdLgivZNleaznrPv3_tIVi7hzEwlCFW0ia73N7ALdyuLCHCEOcdMjalgJVW4p4Hp7EwDKY0t0",
+          "auth": "QfgfmfwsSuBdBsXiD2Y4Cg"
+        }
+      },
+      "createdAt": "2026-10-26T09:50:39.306Z"
+    },
+    {
+      "id": "f0b31cf8-95e5-4484-aac3-abb8d126dea1",
+      "adminId": "fc2b7214-1233-408d-a47f-52241c6e7692",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 OPR/138.0.0.0",
+      "subscription": {
+        "endpoint": "https://fcm.googleapis.com/fcm/send/fBxyP8SEKgI:APA91bGa1RGVLNf_J7uyNDBxzUPn7iMNX824b9B71-HAfgaIwiRSJn3nSYm2NRTSEVzYV7BAxd73EeUx7-M4KUuC_VDHkTdPY21i8ALnZGQriBqS-4v4eDI5ERLxL3oj0B5xS_TZgRNA",
+        "expirationTime": null,
+        "keys": {
+          "p256dh": "BCoICZXynVplbRlPXciZfVwDDzj4eCFRBqwYbt8nbKj8Dmxmy0WlY0LFPePElQLifPAnIOA6lk8K_OG6z37w6E4",
+          "auth": "urV42TtbDKB2796GkGuRTQ"
+        }
+      },
+      "createdAt": "2026-10-26T11:30:41.926Z"
+    }
+  ],
+  "popups": [],
+  "uploads": [],
+  "meta": {
+    "bookingSeq": 1001,
+    "vapid": {
+      "publicKey": "BGV-y6917_LdOp-RWFbhC8POCC91Z-Uy0zFENPmEX2KSstbwxr85G8hkEIWqqgXjhpNjC2jPma6Tj9Jr1vGzJu4",
+      "privateKey": "RJXulL-8s7Y5UsVRAQkdP0WM_ociVWOr9ggsNPdqSX8"
+    },
+    "jwtSecret": "5c742d57bef4c4824340d2cb83051da1106b1f15c69580d75317cafeb0269b69"
+  }
+}
